@@ -1,0 +1,18 @@
+{
+  "name": "Sales Dashboard Navy-Coral",
+  "dataColors": ["#1F3A5F", "#E8744F", "#3E8EDE", "#F2B134", "#6C5B7B", "#2FA58A", "#B8506B", "#8D99AE"],
+  "background": "#FFFFFF",
+  "foreground": "#1B2A41",
+  "tableAccent": "#1F3A5F",
+  "good": "#2FA58A",
+  "bad": "#D1495B",
+  "neutral": "#F2B134",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#1B2A41" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#44546A" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#1F3A5F" }
+  },
+  "visualStyles": {
+    "*": { "*": { "title": [{ "show": true, "fontColor": { "solid": { "color": "#1B2A41" } }, "fontSize": 12 }] } }
+  }
+}

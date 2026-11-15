@@ -1,0 +1,27 @@
+// ===== Create these via: Home > New measure (one at a time) =====
+
+Total Sales = SUM(sales_data[Sales])
+
+Total Profit = SUM(sales_data[Profit])
+
+Total Orders = DISTINCTCOUNT(sales_data[Order ID])
+
+Total Customers = DISTINCTCOUNT(sales_data[Customer ID])
+
+Total Quantity = SUM(sales_data[Quantity])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+
+Avg Order Value = DIVIDE([Total Sales], [Total Orders], 0)
+
+
+// ===== Create these via: Table view > select sales_data > New column =====
+
+Month = FORMAT(sales_data[Order Date], "MMM")
+
+Month No = MONTH(sales_data[Order Date])
+
+Year = YEAR(sales_data[Order Date])
+
+// Then: click the "Month" column > Column tools > Sort by column > Month No
+// (this makes months show Jan, Feb, Mar... instead of alphabetical order)
