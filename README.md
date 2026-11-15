@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard that analyzes sales and revenue data and tracks key business KPIs.
 
-![Dashboard](screenshots/dashboard_full.png)
+![Dashboard](screenshots/dashboard_full.png.png)
 
 ## Objective
 Build a dashboard to analyze sales and revenue: import data, visualize KPIs (total sales, revenue trends, top-performing products) and enable interactive analysis with charts, filters and slicers.
